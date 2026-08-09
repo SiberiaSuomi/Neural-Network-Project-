@@ -43,8 +43,6 @@ n = Neuron(weights, bias)
 x = np.array([2, 3])       # x1 = 2, x2 = 3
 output = n.feedforward(x)
 print(output)
-sig = round(output)
-print(f"the value sigmoided is {sig}")
 if sig >= 0.5:
   print("Accepted")
 else:
